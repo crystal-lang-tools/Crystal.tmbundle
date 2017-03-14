@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>huacnlee@gmail.com</string>
+	<key>contactName</key>
+	<string>Jason Lee</string>
+	<key>description</key>
+	<string>Crystal TextMate bundle</string>
+	<key>name</key>
+	<string>Crystal</string>
+	<key>uuid</key>
+	<string>FC8E7138-224B-47B3-950D-5AF138FE8A8A</string>
+</dict>
+</plist>
