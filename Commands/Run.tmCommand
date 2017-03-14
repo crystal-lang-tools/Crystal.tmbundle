@@ -2,33 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>beforeRunningCommand</key>
-	<string>saveActiveFile</string>
-	<key>command</key>
-	<string>#!/usr/bin/env ruby18 -wKU
+	<key>changed</key>
+	<dict>
+		<key>command</key>
+		<string>#!/usr/bin/env ruby18 -wKU
 require "#{ENV["TM_SUPPORT_PATH"]}/lib/escape"
 require "#{ENV["TM_SUPPORT_PATH"]}/lib/tm/executor"
 
-TextMate::Executor.run(e_sh(ENV['TM_CRYSTAL'] || 'crystal'), 'spec', :verb =&gt; "Running")</string>
-	<key>input</key>
-	<string>document</string>
-	<key>inputFormat</key>
-	<string>text</string>
-	<key>keyEquivalent</key>
-	<string>@r</string>
-	<key>name</key>
-	<string>Run</string>
-	<key>outputCaret</key>
-	<string>afterOutput</string>
-	<key>outputFormat</key>
-	<string>html</string>
-	<key>outputLocation</key>
-	<string>newWindow</string>
-	<key>scope</key>
-	<string>source.crystal</string>
+TextMate::Executor.run(e_sh(ENV['TM_CRYSTAL'] || 'crystal'), 'run', ENV['TM_FILEPATH'], :verb =&gt; "Running")</string>
+	</dict>
+	<key>isDelta</key>
+	<true/>
 	<key>uuid</key>
 	<string>0E79C6BD-1269-427C-8653-CB71197B3C52</string>
-	<key>version</key>
-	<integer>2</integer>
 </dict>
 </plist>
