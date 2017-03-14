@@ -16,8 +16,9 @@ git clone https://github.com/huacnlee/Crystal.tmbundle.git
 ### Features
 
 - Build - Compile current file - `CMD + b`
-- Run - Run `crystal spec` - `CMD + r`
+- Run - Run `crystal run $current_file` - `CMD + r`
 - Format Code - Auto check and format current file - `CMD + s`
+- Test - Run `crystal spec $current_file` - `CMD + SHIFT + r`
 
 ### Special `crystal` path.
 
