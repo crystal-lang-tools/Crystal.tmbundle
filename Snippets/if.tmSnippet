@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>if ${1:condition}
+  ${0}
+end</string>
+	<key>name</key>
+	<string>if</string>
+	<key>scope</key>
+	<string>source.crystal</string>
+	<key>uuid</key>
+	<string>C01A91CB-8A49-40AF-A14C-3EC72B4F2556</string>
+</dict>
+</plist>

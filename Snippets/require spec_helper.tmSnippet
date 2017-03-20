@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>require "./spec_helper"</string>
+	<key>name</key>
+	<string>require spec_helper</string>
+	<key>scope</key>
+	<string>source.crystal.spec</string>
+	<key>tabTrigger</key>
+	<string>reqs</string>
+	<key>uuid</key>
+	<string>EEAA3F4E-1E27-46AD-BBB2-B882B9CA3EE0</string>
+</dict>
+</plist>

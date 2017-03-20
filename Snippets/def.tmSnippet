@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>def ${1:method_name}
+  ${0}
+end</string>
+	<key>name</key>
+	<string>def</string>
+	<key>scope</key>
+	<string>source.crystal</string>
+	<key>tabTrigger</key>
+	<string>def</string>
+	<key>uuid</key>
+	<string>CF4A7DF0-C520-41DB-B19C-06D045DAD5C5</string>
+</dict>
+</plist>

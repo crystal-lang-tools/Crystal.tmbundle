@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>require "${1:module_name}"
+${0}</string>
+	<key>name</key>
+	<string>require</string>
+	<key>scope</key>
+	<string>source.crystal</string>
+	<key>tabTrigger</key>
+	<string>req</string>
+	<key>uuid</key>
+	<string>1DCF0D95-04EA-44B7-B37C-97C0A88E7D74</string>
+</dict>
+</plist>

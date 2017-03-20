@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>setter :${1:name}</string>
+	<key>name</key>
+	<string>setter</string>
+	<key>scope</key>
+	<string>source.crystal</string>
+	<key>tabTrigger</key>
+	<string>set</string>
+	<key>uuid</key>
+	<string>7F40CAF6-592D-4D56-BEA4-B5D13BA85ABC</string>
+</dict>
+</plist>
