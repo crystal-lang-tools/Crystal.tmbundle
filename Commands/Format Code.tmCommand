@@ -8,7 +8,7 @@
 	<string>#!/usr/bin/env bash
 . "${TM_SUPPORT_PATH}/lib/bash_init.sh"
 
-(eval "${TM_CRYSTAL:-crystal} tool format ${TM_FILEPATH}") || exit_show_tool_tip
+(eval "${TM_CRYSTAL:-crystal} tool format ${TM_FILEPATH} &amp;&amp; cat ${TM_FILEPATH}")
 </string>
 	<key>input</key>
 	<string>document</string>
@@ -19,11 +19,11 @@
 	<key>name</key>
 	<string>Format Code</string>
 	<key>outputCaret</key>
-	<string>afterOutput</string>
+	<string>interpolateByChar</string>
 	<key>outputFormat</key>
-	<string>html</string>
+	<string>text</string>
 	<key>outputLocation</key>
-	<string>toolTip</string>
+	<string>replaceDocument</string>
 	<key>scope</key>
 	<string>source.crystal</string>
 	<key>uuid</key>
