@@ -3,13 +3,95 @@
 <plist version="1.0">
 <dict>
 	<key>contactEmailRot13</key>
-	<string>uhnpayrr@tznvy.pbz</string>
+	<string>huacnlee@gmail.com</string>
 	<key>contactName</key>
 	<string>Jason Lee</string>
 	<key>description</key>
-	<string>Crystal TextMate bundle</string>
+	<string>Support for the &lt;a href="https://crystal-lang.org"&gt;Crystal programming language&lt;/a&gt;.</string>
+	<key>mainMenu</key>
+	<dict>
+		<key>excludedItems</key>
+		<array/>
+		<key>items</key>
+		<array>
+			<string>08AFA60D-5E8F-48C0-A215-25879D0AD3CB</string>
+			<string>0E79C6BD-1269-427C-8653-CB71197B3C52</string>
+			<string>DF156225-2E6B-43EC-92DF-D191EAB79147</string>
+			<string>93927F0F-F611-4BB7-9F9E-588E1801D845</string>
+			<string>------------------------------------</string>
+			<string>BF072170-7734-4755-8302-0E6E060C2D1D</string>
+			<string>EABA88E4-0C42-4090-87A8-9D2BBC368E0F</string>
+			<string>CA886E5C-6637-48F4-B2D2-D2DB51F3310F</string>
+			<string>24525B3B-93B7-4807-9D74-8473D042F73D</string>
+			<string>B88CE22E-0E38-405F-BFEF-3E550A470E91</string>
+		</array>
+		<key>submenus</key>
+		<dict>
+			<key>24525B3B-93B7-4807-9D74-8473D042F73D</key>
+			<dict>
+				<key>items</key>
+				<array/>
+				<key>name</key>
+				<string>Iterators</string>
+			</dict>
+			<key>B88CE22E-0E38-405F-BFEF-3E550A470E91</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>EEAA3F4E-1E27-46AD-BBB2-B882B9CA3EE0</string>
+					<string>------------------------------------</string>
+					<string>2BA55B97-7931-4BE3-8EDE-06D5234E6DB1</string>
+					<string>260A4C5D-F294-400D-8BD1-3F2870936825</string>
+				</array>
+				<key>name</key>
+				<string>Tests</string>
+			</dict>
+			<key>BF072170-7734-4755-8302-0E6E060C2D1D</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>69E898BA-2EF7-46C9-9643-8FFBBDCF87DC</string>
+					<string>------------------------------------</string>
+					<string>BC2FB9CE-5807-4800-B42F-A7E9112628FD</string>
+					<string>93C09529-626C-4B61-BC65-8F994993CF27</string>
+					<string>------------------------------------</string>
+					<string>CF4A7DF0-C520-41DB-B19C-06D045DAD5C5</string>
+					<string>3D3F7A11-7633-4B25-AA3A-049B24D7E1F9</string>
+				</array>
+				<key>name</key>
+				<string>Class Module Methods</string>
+			</dict>
+			<key>CA886E5C-6637-48F4-B2D2-D2DB51F3310F</key>
+			<dict>
+				<key>items</key>
+				<array/>
+				<key>name</key>
+				<string>Control Flow</string>
+			</dict>
+			<key>EABA88E4-0C42-4090-87A8-9D2BBC368E0F</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>1DCF0D95-04EA-44B7-B37C-97C0A88E7D74</string>
+					<string>C01A91CB-8A49-40AF-A14C-3EC72B4F2556</string>
+					<string>------------------------------------</string>
+					<string>16E7A0C4-45D6-4D23-A634-AE8072F107CD</string>
+					<string>7F40CAF6-592D-4D56-BEA4-B5D13BA85ABC</string>
+				</array>
+				<key>name</key>
+				<string>Declarations</string>
+			</dict>
+		</dict>
+	</dict>
 	<key>name</key>
 	<string>Crystal</string>
+	<key>source</key>
+	<dict>
+		<key>method</key>
+		<string>git</string>
+		<key>url</key>
+		<string>https://github.com/huacnlee/Crystal.tmbundle.git</string>
+	</dict>
 	<key>uuid</key>
 	<string>FC8E7138-224B-47B3-950D-5AF138FE8A8A</string>
 </dict>
