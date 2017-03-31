@@ -197,7 +197,7 @@
 			<key>comment</key>
 			<string>everything being a reserved word, not a value and needing a 'end' is a..</string>
 			<key>match</key>
-			<string>(?&lt;!\.)\b(BEGIN|alias|as|begin|case|abstract|class|else|elsif|END|end|ensure|for|fun|if|ifdef|in|lib|module|of|out|rescue|struct|union|enum|macro|then|type|unless|until|when|while)\b(?![?!])</string>
+			<string>(?&lt;!\.)\b(BEGIN|alias|as|begin|case|select|abstract|class|else|elsif|END|end|ensure|for|fun|if|ifdef|in|lib|module|of|out|rescue|struct|union|enum|macro|then|type|unless|until|when|while)\b(?![?!])</string>
 			<key>name</key>
 			<string>keyword.control.crystal</string>
 		</dict>
@@ -229,7 +229,7 @@
 			<key>comment</key>
 			<string> just as above but being not a logical operation</string>
 			<key>match</key>
-			<string>(?&lt;!\.)\b(alias|alias_method|break|next|pointerof|typeof|sizeof|instance_sizeof|zredo|retry|return|super|undef|yield)\b(?![?!])|\bdefined\?|\bblock_given\?</string>
+			<string>(?&lt;!\.)\b(alias|alias_method|break|next|pointerof|typeof|sizeof|instance_sizeof|zredo|retry|return|super|undef|yield|uninitialized|forall)\b(?![?!])|\bdefined\?|\bblock_given\?</string>
 			<key>name</key>
 			<string>keyword.control.pseudo-method.crystal</string>
 		</dict>
@@ -241,7 +241,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(__(FILE|LINE)__|self)\b(?![?!])</string>
+			<string>\b(__(DIR|FILE|LINE)__|self)\b(?![?!])</string>
 			<key>name</key>
 			<string>variable.language.crystal</string>
 		</dict>
@@ -249,7 +249,7 @@
 			<key>comment</key>
 			<string> everything being a method but having a special function is a..</string>
 			<key>match</key>
-			<string>\b(initialize|new|loop|include|extend|raise|attr_reader|attr_writer|attr_accessor|attr|getter|setter|property|catch|throw|private|module_function|public|protected|describe|it)\b[!?]?</string>
+			<string>\b(initialize|new|loop|include|extend|raise|attr_reader|attr_writer|attr_accessor|attr|class_getter|class_setter|class_property|getter|setter|property|catch|throw|private|module_function|public|protected|describe|it|with|delegate|def_hash|def_equals|def_equals_and_hash|forward_missing_to|record|assert_responds_to|spawn)\b[!?]?</string>
 			<key>name</key>
 			<string>keyword.other.special-method.crystal</string>
 		</dict>
