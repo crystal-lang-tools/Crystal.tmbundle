@@ -3,19 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>beforeRunningCommand</key>
-	<string>saveActiveFile</string>
+	<string>nop</string>
 	<key>command</key>
 	<string>#!/usr/bin/env bash
 . "${TM_SUPPORT_PATH}/lib/bash_init.sh"
 
-(eval "${TM_CRYSTAL:-crystal} tool format ${TM_FILEPATH} &amp;&amp; cat ${TM_FILEPATH}")
+(eval "cat ${TM_FILEPATH} | ${TM_CRYSTAL:-crystal} tool format -") || exit_show_tool_tip
 </string>
 	<key>input</key>
 	<string>document</string>
 	<key>inputFormat</key>
 	<string>text</string>
-	<key>keyEquivalent</key>
-	<string>@s</string>
 	<key>name</key>
 	<string>Format Code</string>
 	<key>outputCaret</key>
@@ -26,6 +24,8 @@
 	<string>replaceDocument</string>
 	<key>scope</key>
 	<string>source.crystal</string>
+	<key>semanticClass</key>
+	<string>callback.document.will-save</string>
 	<key>uuid</key>
 	<string>DF156225-2E6B-43EC-92DF-D191EAB79147</string>
 	<key>version</key>
