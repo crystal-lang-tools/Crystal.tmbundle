@@ -14,10 +14,10 @@
 		<array/>
 		<key>items</key>
 		<array>
-			<string>08AFA60D-5E8F-48C0-A215-25879D0AD3CB</string>
-			<string>0E79C6BD-1269-427C-8653-CB71197B3C52</string>
-			<string>DF156225-2E6B-43EC-92DF-D191EAB79147</string>
-			<string>93927F0F-F611-4BB7-9F9E-588E1801D845</string>
+			<string>9C1A39C8-3A9F-436D-A48B-3FBCEC7C4B54</string>
+			<string>BB505E05-5D21-4050-BD70-36A53813BAE2</string>
+			<string>A9830492-1671-42E1-A266-A3AC65A4FBEA</string>
+			<string>1261009F-1B8E-4385-AAD1-2CE826D1B69E</string>
 			<string>------------------------------------</string>
 			<string>BF072170-7734-4755-8302-0E6E060C2D1D</string>
 			<string>EABA88E4-0C42-4090-87A8-9D2BBC368E0F</string>
@@ -38,10 +38,10 @@
 			<dict>
 				<key>items</key>
 				<array>
-					<string>EEAA3F4E-1E27-46AD-BBB2-B882B9CA3EE0</string>
+					<string>5F56F19F-524C-4674-ABBC-65CBD52AE5BA</string>
 					<string>------------------------------------</string>
-					<string>2BA55B97-7931-4BE3-8EDE-06D5234E6DB1</string>
-					<string>260A4C5D-F294-400D-8BD1-3F2870936825</string>
+					<string>B346F9C7-68C4-42D5-B67A-61042500CAE6</string>
+					<string>75874636-9EC1-4137-BC39-26E2F311E5C4</string>
 				</array>
 				<key>name</key>
 				<string>Tests</string>
@@ -50,13 +50,13 @@
 			<dict>
 				<key>items</key>
 				<array>
-					<string>69E898BA-2EF7-46C9-9643-8FFBBDCF87DC</string>
+					<string>75972B8D-EF10-40AA-A749-EFCA21D3AB61</string>
 					<string>------------------------------------</string>
-					<string>BC2FB9CE-5807-4800-B42F-A7E9112628FD</string>
-					<string>93C09529-626C-4B61-BC65-8F994993CF27</string>
+					<string>ED183653-D3F3-4242-B7F6-3491E7DD065D</string>
+					<string>2CAAC477-E477-4934-BEA8-D15125227360</string>
 					<string>------------------------------------</string>
-					<string>CF4A7DF0-C520-41DB-B19C-06D045DAD5C5</string>
-					<string>3D3F7A11-7633-4B25-AA3A-049B24D7E1F9</string>
+					<string>47D6C9C3-5317-413F-8237-C942B3DBCC16</string>
+					<string>3DE3E1CF-EBC7-44FD-9ADF-02AEE0D38B2E</string>
 				</array>
 				<key>name</key>
 				<string>Class Module Methods</string>
@@ -72,13 +72,13 @@
 			<dict>
 				<key>items</key>
 				<array>
-					<string>1DCF0D95-04EA-44B7-B37C-97C0A88E7D74</string>
-					<string>C01A91CB-8A49-40AF-A14C-3EC72B4F2556</string>
-					<string>9829703A-66B6-4488-9951-B10BCEF05CEE</string>
+					<string>AB4AC558-0D9D-4F2F-80B5-646709708EE1</string>
+					<string>A764EF66-1E23-462B-ADCE-0D87559C9F25</string>
+					<string>900F90D4-EDE1-48EA-B2A4-614E7C6934EA</string>
 					<string>------------------------------------</string>
-					<string>16E7A0C4-45D6-4D23-A634-AE8072F107CD</string>
-					<string>7F40CAF6-592D-4D56-BEA4-B5D13BA85ABC</string>
-					<string>76F0E40A-5115-4D80-B723-C708F4A6CAB6</string>
+					<string>1033F6CC-6B63-4D66-91EC-161D6B09FFB5</string>
+					<string>577CBA4A-E177-4CD6-B082-F9FB65A4D851</string>
+					<string>A7B5D5B4-4656-41D5-AA2A-A98B730446B1</string>
 				</array>
 				<key>name</key>
 				<string>Declarations</string>

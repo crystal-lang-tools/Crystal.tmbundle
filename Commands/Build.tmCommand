@@ -27,7 +27,7 @@ TextMate::Executor.run(e_sh(ENV['TM_CRYSTAL'] || 'crystal'), 'build', '--verbose
 	<key>scope</key>
 	<string>source.crystal</string>
 	<key>uuid</key>
-	<string>08AFA60D-5E8F-48C0-A215-25879D0AD3CB</string>
+	<string>9C1A39C8-3A9F-436D-A48B-3FBCEC7C4B54</string>
 	<key>version</key>
 	<integer>2</integer>
 </dict>
