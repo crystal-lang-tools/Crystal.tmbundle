@@ -396,7 +396,7 @@
 				</dict>
 			</dict>
 			<key>comment</key>
-			<string>the method pattern comes from the symbol pattern, see there for a explaination</string>
+			<string>the method pattern comes from the symbol pattern, see there for a explanation</string>
 			<key>contentName</key>
 			<string>variable.parameter.function.crystal</string>
 			<key>end</key>
