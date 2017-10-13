@@ -397,8 +397,6 @@
 			</dict>
 			<key>comment</key>
 			<string>the method pattern comes from the symbol pattern, see there for a explanation</string>
-			<key>contentName</key>
-			<string>variable.parameter.function.crystal</string>
 			<key>end</key>
 			<string>\)</string>
 			<key>endCaptures</key>
@@ -413,6 +411,18 @@
 			<string>meta.function.method.with-arguments.crystal</string>
 			<key>patterns</key>
 			<array>
+				<dict>
+					<key>match</key>
+					<string>(@)[a-zA-Z_]\w*</string>
+					<key>name</key>
+					<string>variable.other.readwrite.instance.crystal</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\b[a-z\_]\w*\b</string>
+					<key>name</key>
+					<string>variable.parameter.function.crystal</string>
+				</dict>
 				<dict>
 					<key>include</key>
 					<string>$self</string>
@@ -445,14 +455,24 @@
 			</dict>
 			<key>comment</key>
 			<string>same as the previous rule, but without parentheses around the arguments</string>
-			<key>contentName</key>
-			<string>variable.parameter.function.crystal</string>
 			<key>end</key>
 			<string>$</string>
 			<key>name</key>
 			<string>meta.function.method.with-arguments.crystal</string>
 			<key>patterns</key>
 			<array>
+				<dict>
+					<key>match</key>
+					<string>(@)[a-zA-Z_]\w*</string>
+					<key>name</key>
+					<string>variable.other.readwrite.instance.crystal</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\b[a-z\_]\w*\b</string>
+					<key>name</key>
+					<string>variable.parameter.function.crystal</string>
+				</dict>
 				<dict>
 					<key>include</key>
 					<string>$self</string>
