@@ -1494,7 +1494,7 @@
 			<array>
 				<dict>
 					<key>comment</key>
-					<string>Cant be named because its not neccesarily an escape.</string>
+					<string>Cant be named because its not necessarily an escape.</string>
 					<key>match</key>
 					<string>\\.</string>
 				</dict>
