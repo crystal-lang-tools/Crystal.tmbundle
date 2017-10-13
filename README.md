@@ -7,8 +7,8 @@ Install
 -------
 
 ```bash
-mkdir -p ~/Library/Application\ Support/Avian/Bundles
-cd ~/Library/Application\ Support/Avian/Bundles
+mkdir -p ~/Library/Application\ Support/TextMate/Bundles
+cd ~/Library/Application\ Support/TextMate/Bundles
 git clone https://github.com/huacnlee/Crystal.tmbundle.git
 ```
 
