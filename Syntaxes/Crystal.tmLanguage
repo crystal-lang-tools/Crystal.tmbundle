@@ -396,9 +396,7 @@
 				</dict>
 			</dict>
 			<key>comment</key>
-			<string>the method pattern comes from the symbol pattern, see there for a explaination</string>
-			<key>contentName</key>
-			<string>variable.parameter.function.crystal</string>
+			<string>the method pattern comes from the symbol pattern, see there for a explanation</string>
 			<key>end</key>
 			<string>\)</string>
 			<key>endCaptures</key>
@@ -413,6 +411,18 @@
 			<string>meta.function.method.with-arguments.crystal</string>
 			<key>patterns</key>
 			<array>
+				<dict>
+					<key>match</key>
+					<string>(@)[a-zA-Z_]\w*</string>
+					<key>name</key>
+					<string>variable.other.readwrite.instance.crystal</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\b[a-z\_]\w*\b</string>
+					<key>name</key>
+					<string>variable.parameter.function.crystal</string>
+				</dict>
 				<dict>
 					<key>include</key>
 					<string>$self</string>
@@ -445,14 +455,24 @@
 			</dict>
 			<key>comment</key>
 			<string>same as the previous rule, but without parentheses around the arguments</string>
-			<key>contentName</key>
-			<string>variable.parameter.function.crystal</string>
 			<key>end</key>
 			<string>$</string>
 			<key>name</key>
 			<string>meta.function.method.with-arguments.crystal</string>
 			<key>patterns</key>
 			<array>
+				<dict>
+					<key>match</key>
+					<string>(@)[a-zA-Z_]\w*</string>
+					<key>name</key>
+					<string>variable.other.readwrite.instance.crystal</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\b[a-z\_]\w*\b</string>
+					<key>name</key>
+					<string>variable.parameter.function.crystal</string>
+				</dict>
 				<dict>
 					<key>include</key>
 					<string>$self</string>
@@ -1494,7 +1514,7 @@
 			<array>
 				<dict>
 					<key>comment</key>
-					<string>Cant be named because its not neccesarily an escape.</string>
+					<string>Cant be named because its not necessarily an escape.</string>
 					<key>match</key>
 					<string>\\.</string>
 				</dict>
@@ -1549,20 +1569,40 @@
 			<string>^=end</string>
 			<key>name</key>
 			<string>comment.block.documentation.crystal</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>\b(BUG|DEPRECATED|FIXME|NOTE|OPTIMIZE|TODO)\b</string>
+					<key>name</key>
+					<string>storage.type.class.todo.crystal</string>
+				</dict>
+			</array>
 		</dict>
 		<dict>
+			<key>begin</key>
+			<string>#</string>
 			<key>captures</key>
 			<dict>
-				<key>1</key>
+				<key>0</key>
 				<dict>
 					<key>name</key>
 					<string>punctuation.definition.comment.crystal</string>
 				</dict>
 			</dict>
-			<key>match</key>
-			<string>(?:^[ \t]+)?(#).*$\n?</string>
+			<key>end</key>
+			<string>\n</string>
 			<key>name</key>
 			<string>comment.line.number-sign.crystal</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>\b(BUG|DEPRECATED|FIXME|NOTE|OPTIMIZE|TODO)\b</string>
+					<key>name</key>
+					<string>storage.type.class.todo.crystal</string>
+				</dict>
+			</array>
 		</dict>
 		<dict>
 			<key>comment</key>
