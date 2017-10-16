@@ -412,20 +412,14 @@
 			<key>patterns</key>
 			<array>
 				<dict>
-					<key>match</key>
-					<string>(@)[a-zA-Z_]\w*</string>
-					<key>name</key>
-					<string>variable.other.readwrite.instance.crystal</string>
+					<key>include</key>
+					<string>$self</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b[a-z\_]\w*\b</string>
 					<key>name</key>
 					<string>variable.parameter.function.crystal</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>$self</string>
 				</dict>
 			</array>
 		</dict>
@@ -462,20 +456,14 @@
 			<key>patterns</key>
 			<array>
 				<dict>
-					<key>match</key>
-					<string>(@)[a-zA-Z_]\w*</string>
-					<key>name</key>
-					<string>variable.other.readwrite.instance.crystal</string>
+					<key>include</key>
+					<string>$self</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b[a-z\_]\w*\b</string>
 					<key>name</key>
 					<string>variable.parameter.function.crystal</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>$self</string>
 				</dict>
 			</array>
 		</dict>
