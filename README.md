@@ -22,7 +22,7 @@ git clone https://github.com/crystal-lang-tools/Crystal.tmbundle.git
 
 ### Special `crystal` path.
 
-By default, this bundle will try call `crystal` command, and you can special a path via `TM_CRYSTAL` env.
+By default, this bundle will try to call the `crystal` command. You can specify a path via `TM_CRYSTAL` env variable.
 
 ```
 TM_CRYSTAL=/path/to/your/crystal
