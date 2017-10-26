@@ -9,7 +9,7 @@ Install
 ```bash
 mkdir -p ~/Library/Application\ Support/TextMate/Bundles
 cd ~/Library/Application\ Support/TextMate/Bundles
-git clone https://github.com/huacnlee/Crystal.tmbundle.git
+git clone https://github.com/crystal-lang-tools/Crystal.tmbundle.git
 ```
 
 
