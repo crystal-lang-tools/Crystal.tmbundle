@@ -86,7 +86,7 @@
 		|   ^=end
 		)</string>
 	<key>keyEquivalent</key>
-	<string>^~R</string>
+	<string>^~C</string>
 	<key>name</key>
 	<string>Crystal</string>
 	<key>patterns</key>
