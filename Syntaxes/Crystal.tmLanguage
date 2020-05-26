@@ -2282,39 +2282,35 @@
 			<key>patterns</key>
 			<array>
 				<dict>
-					<key>captures</key>
+					<key>begin</key>
+					<string>#\{</string>
+					<key>beginCaptures</key>
 					<dict>
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.section.embedded.crystal</string>
+							<string>punctuation.section.embedded.begin.crystal</string>
+						</dict>
+					</dict>
+					<key>contentName</key>
+					<string>source.crystal</string>
+					<key>end</key>
+					<string>(\})</string>
+					<key>endCaptures</key>
+					<dict>
+						<key>0</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.section.embedded.end.crystal</string>
 						</dict>
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>source.crystal.embedded.source.empty</string>
+							<string>source.crystal</string>
 						</dict>
 					</dict>
-					<key>match</key>
-					<string>#\{(\})</string>
 					<key>name</key>
-					<string>source.crystal.embedded.source</string>
-				</dict>
-				<dict>
-					<key>begin</key>
-					<string>#\{</string>
-					<key>captures</key>
-					<dict>
-						<key>0</key>
-						<dict>
-							<key>name</key>
-							<string>punctuation.section.embedded.crystal</string>
-						</dict>
-					</dict>
-					<key>end</key>
-					<string>\}</string>
-					<key>name</key>
-					<string>source.crystal.embedded.source</string>
+					<string>meta.embedded.line.crystal</string>
 					<key>patterns</key>
 					<array>
 						<dict>
