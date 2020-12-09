@@ -9,7 +9,7 @@
 require "#{ENV["TM_SUPPORT_PATH"]}/lib/escape"
 require "#{ENV["TM_SUPPORT_PATH"]}/lib/tm/executor"
 
-TextMate::Executor.run(e_sh(ENV['TM_CRYSTAL'] || 'crystal'), 'spec', ENV['TM_FILEPATH'], :verb =&gt; "Testing")</string>
+TextMate::Executor.run(e_sh(ENV['TM_CRYSTAL'] || 'crystal'), 'spec', '--no-color', ENV['TM_FILEPATH'], :verb =&gt; "Testing")</string>
 	<key>input</key>
 	<string>none</string>
 	<key>inputFormat</key>
