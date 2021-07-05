@@ -13,7 +13,12 @@
 		<key>increaseIndentPattern</key>
 		<string>(?x)^
     (\s*
-        (module|class|def
+        ((private\s+)?module
+        |((private|abstract|private\s+abstract)\s+)?(class|struct)
+        |(private\s+)?enum
+        |((private|protected)\s+)?def
+        |(private\s+)?macro
+        |union|lib
         |unless|if|else|elsif
         |case|when
         |begin|rescue|ensure
