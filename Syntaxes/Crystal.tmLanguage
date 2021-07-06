@@ -131,7 +131,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>^\s*(abstract)?\s*(class)\s+(([.a-zA-Z0-9_:]+(\s*(&lt;)\s*[.a-zA-Z0-9_:]+)?)|((&lt;&lt;)\s*[.a-zA-Z0-9_:]+))</string>
+			<string>^\s*((?:private|abstract|private\s+abstract)\s+)?((?:class|struct))\s+(([.a-zA-Z0-9_:]+(\s*(&lt;)\s*[.a-zA-Z0-9_:]+)?)|((&lt;&lt;)\s*[.a-zA-Z0-9_:]+))</string>
 			<key>name</key>
 			<string>meta.class.crystal</string>
 		</dict>
@@ -146,41 +146,46 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.type.module.crystal</string>
+					<string>keyword.control.module.crystal</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>entity.other.inherited-class.module.first.crystal</string>
+					<string>entity.name.type.module.crystal</string>
 				</dict>
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.separator.inheritance.crystal</string>
+					<string>entity.other.inherited-class.module.first.crystal</string>
 				</dict>
 				<key>5</key>
 				<dict>
 					<key>name</key>
-					<string>entity.other.inherited-class.module.second.crystal</string>
+					<string>punctuation.separator.inheritance.crystal</string>
 				</dict>
 				<key>6</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.separator.inheritance.crystal</string>
+					<string>entity.other.inherited-class.module.second.crystal</string>
 				</dict>
 				<key>7</key>
 				<dict>
 					<key>name</key>
-					<string>entity.other.inherited-class.module.third.crystal</string>
+					<string>punctuation.separator.inheritance.crystal</string>
 				</dict>
 				<key>8</key>
+				<dict>
+					<key>name</key>
+					<string>entity.other.inherited-class.module.third.crystal</string>
+				</dict>
+				<key>9</key>
 				<dict>
 					<key>name</key>
 					<string>punctuation.separator.inheritance.crystal</string>
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>^\s*(module)\s+(([A-Z]\w*(::))?([A-Z]\w*(::))?([A-Z]\w*(::))*[A-Z]\w*)</string>
+			<string>^\s*(private\s+)?(module)\s+(([A-Z]\w*(::))?([A-Z]\w*(::))?([A-Z]\w*(::))*[A-Z]\w*)</string>
 			<key>name</key>
 			<string>meta.module.crystal</string>
 		</dict>
