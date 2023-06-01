@@ -25,3 +25,10 @@ By default, this bundle will try to call the `crystal` command. You can specify 
 ```
 TM_CRYSTAL=/path/to/your/crystal
 ```
+
+## Contributors
+
+- [@chris-huxtable](https://github.com/chris-huxtable) Chris Huxtable - creator
+- [@hovsater](https://github.com/hovsater) Kevin Hovsäter - maintainer
+
+[See all contributors](https://github.com/crystal-lang-tools/Crystal.tmbundle/graphs/contributors)
